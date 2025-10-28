@@ -6,9 +6,9 @@ variable "instance_tentency"{
     default="default"
 }
 
-variable "tags"{
+variable "vpc_tags"{
     default={
-        Purpose=vpc-module-test
+        Purpose="vpc-module-test"
         Dontdelete=true
     }
 }
@@ -20,3 +20,8 @@ variable "project"{
 variable "environment"{
     default="dev"
 }
+
+
+# variable "public_subnet_cidr"{
+#     deafult=["10.0.1.0/24","10.0.2.0/24"]
+# }

@@ -4,4 +4,5 @@ module "aws_vpc"{
     instance_tentency=var.instance_tentency
     project_name =var.project
     environment = var.environment
+    vpc_tags = var.vpc_tags
 }
