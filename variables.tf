@@ -36,5 +36,5 @@ variable "database_subnet_cidr"{
 
 variable "isPeering"{
     type=bool
-    default=true
+    default=false
 }
