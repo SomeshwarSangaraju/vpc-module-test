@@ -16,5 +16,5 @@ module "aws_vpc"{
     #database subnet
     database_subnet_cidr = var.database_subnet_cidr
 
-    isPeering = var.isPeering
+    isPeering = var.is_Peering_required
 }
